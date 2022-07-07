@@ -12,7 +12,7 @@ public class EmployeeApp {
 		System.out.println();
 
 		while (true) {
-			System.out.println("1.초기화(사원수) 2.사원입력 3.리스트 4.상세조회 5.달력보기 9.종료 ");
+			System.out.println("\n1.초기화(사원수) 2.사원입력 3.리스트 4.상세조회 5.달력보기 9.종료 ");
 			System.out.println("선택>");
 			int selectNo = Integer.parseInt(scn.nextLine());
 			if (selectNo == 1) {

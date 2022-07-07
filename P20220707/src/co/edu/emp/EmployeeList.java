@@ -125,6 +125,7 @@ public class EmployeeList {
 
 	// 달력
 	public void showCalender() {
+		System.out.println("달력 월 입력>>");
 		System.out.println(" ");
 		int month = Integer.parseInt(scn.nextLine());
 

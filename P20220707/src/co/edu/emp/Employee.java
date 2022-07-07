@@ -11,6 +11,7 @@ public class Employee {
 	private String departmentName; // 부서명
 	private int salary; // 급여
 	private String email; // 이메일
+	private String calender; 
 
 	// 생성자.
 	public Employee() {
@@ -94,8 +95,12 @@ public class Employee {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	
-	
+	public String getCalender() {
+		return calender;
+	}
+	public void setCalender(String calender) {
+		this.calender = calender;
+	}
 	
 	
 	
