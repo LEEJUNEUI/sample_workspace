@@ -111,7 +111,7 @@ public class EmployeeList {
 		case 3:
 			return 2;
 		case 4:
-			return 5; 
+			return 5;
 		case 5:
 			return 0;
 		case 6:
@@ -126,7 +126,7 @@ public class EmployeeList {
 	// 달력
 	public void showCalender() {
 		System.out.println("달력 월 입력>>");
-		System.out.println(" ");
+		System.out.print("");
 		int month = Integer.parseInt(scn.nextLine());
 
 		// 요일 정보. 1일의 위치. 말일의 날짜(28일인지,30일인지,31일인지).
@@ -138,6 +138,7 @@ public class EmployeeList {
 			System.out.printf("%4s", days[i]);
 		}
 		System.out.println();
+		
 		// 1일의 요일정보를 맞추도록.
 		for (int i = 0; i < firstDay; i++) {
 			System.out.printf("%4s", " ");

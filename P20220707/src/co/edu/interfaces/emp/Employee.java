@@ -1,19 +1,12 @@
-package co.edu.emp;
+package co.edu.interfaces.emp;
 
-/*
- * 사원정보 : 복합적인 데이터 유형.
- * 사원번호, 이름, 부서번호, 부서명, 급여, 이메일
- */
 public class Employee {
-	private int employeeId; // 사번
-	private String name; // 이름
-	private int departmentId; // 부서번호 10:인사 20:개발 30:영업(기본값)
+	private int employeeId;        // 사번
+	private String name;           // 이름
+	private int departmentId;      // 부서번호 10:인사 20:개발 30:영업(기본값)
 	private String departmentName; // 부서명
-	private int salary; // 급여
-	private String email; // 이메일
-	private String calender; 
-	private int lastDate;
-	private int dayInfo;
+	private int salary;            // 급여
+	private String email;          // 이메일
 
 	// 생성자.
 	public Employee() {
@@ -97,11 +90,4 @@ public class Employee {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	public String getCalender() {
-		return calender;
-	}
-	public void setCalender(String calender) {
-		this.calender = calender;
-	}
-	
 }
